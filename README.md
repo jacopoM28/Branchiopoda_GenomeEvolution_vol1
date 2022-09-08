@@ -4,14 +4,14 @@
 
 #### Raw Repeats annotation:
 
-**01.RepeatModeler.sh:** De-novo TE discovery.  
-**02.RepeatMasker.sh:** TE annotation with automatic generated libraries.  
+- **01.RepeatModeler.sh:** De-novo TE discovery.  
+- **02.RepeatMasker.sh:** TE annotation with automatic generated libraries.  
 
 #### Manual and automatic repeats annotation
-**03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
-**04.RawCons_CopyNumber.sh:** RepeatCraft to merge fragmented repeats and extraction of raw consensus with more than 50 genomic copies.  
-**05.Manual_Curation.sh:** Manual curation of a set of raw consensus.  
-**06.Automatic_Curation.sh:** Automatic curation of all consensus.  
+- **03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
+- **04.RawCons_CopyNumber.sh:** RepeatCraft to merge fragmented repeats and extraction of raw consensus with more than 50 genomic copies.  
+- **05.Manual_Curation.sh:** Manual curation of a set of raw consensus.  
+- **06.Automatic_Curation.sh:** Automatic curation of all consensus.  
 
 
 
