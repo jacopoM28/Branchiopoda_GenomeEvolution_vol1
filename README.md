@@ -4,10 +4,11 @@
 
 #### Raw Repeats annotation:
 
-01.RepeatModeler.sh
-02.RepeatMasker.sh
+01.RepeatModeler.sh. 
+02.RepeatMasker.sh. 
 
 #### Manual and automatic repeats annotation
-03.Automatic_Refining_Libraries.sh
-04.Manual_Curation.sh
-05.Automatic_Curation.sh
+03.Automatic_Refining_Libraries.sh. 
+04.Manual_Curation.sh. 
+05.Automatic_Curation.sh. 
+ 
