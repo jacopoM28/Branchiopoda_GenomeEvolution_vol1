@@ -10,4 +10,5 @@ for i in $( ls ); do
   cd "$i"; 
 python ../../Blast_Extend_Extract_v2.0.py --genome "$i".genomic.fa --lib "$i"_ToCurate.txt.fa --out "$i" --mafft_strategy auto --blast_query_cov 70 --min_Blast_Hits 5 --num_threads 30 --blast_identity 70; 
   cd ../; 
+  
 done;
