@@ -14,5 +14,5 @@
 
 
 
-##### NB: all custom python scripts can be found in: [TE_Scripts]()
+##### NB: all custom python scripts can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
  
