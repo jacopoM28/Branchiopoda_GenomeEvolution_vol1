@@ -14,7 +14,7 @@ for i in ../../Genomes/Branchiopods/*genomic.fa; do
                 mkdir rnd"$j";
                 cd rnd"$j";
                 ln -s ../../../../Genomes/Branchiopods/"$i"
-                #If it's the first extension round, use the automatically generated libraries as queries...
+                #If it's the first extension round, use the automatically generated libraries without genes and tandem repeats as queries...
                 if [ "$j" = 1 ]; then
                         ln -s  ../../../Libs/"$varSpecie"-families.noProt.noTandem.fa
                         python ../../../../TE_Scripts/AutomaticBEE.py --genome "$varSpecie".genomic.fa --lib "$varSpecie"-families.noProt.noTandem.fa --out "$varSpecie"_auto_rnd"$j" --blast_identity 70 --blast_query_cov 70 --num_threads 30 --min_Blast_Hits 5
