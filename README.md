@@ -3,7 +3,7 @@
 ## Bioinformatic pipeline used to study evolution of Transposable Elements in 9 branchiopods genomes.
 
 ### Species :  
- - Lpac = "Lepidurus packardi*
+ - Lpac = *Lepidurus packardi*
  - Lapu = *Lepidurus apus apus*
  - Lart = *Lepidurus arcticus*
  - Lcou = *Lepidurus couesi*
