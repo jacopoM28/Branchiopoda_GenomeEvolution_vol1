@@ -1,6 +1,6 @@
 # Branchiopoda_GenomeEvolution_vol1
 
-## Bioinformati pipeline used to study evolution of Transposable Elements in 8 brachiopods genomes.
+## Bioinformati pipeline used to study evolution of Transposable Elements in 8 branchiopods genomes.
 
 #### Raw Repeats annotation:
 
