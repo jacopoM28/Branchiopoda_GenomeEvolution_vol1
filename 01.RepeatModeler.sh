@@ -1,7 +1,7 @@
 ########################################################################
 #                      De novo TE library                              #
 ########################################################################
-#The script must be run in a directory with all genomes (*.fa files)
+#The script must be run in a directory with all genomes in fasta files (*.fa files)
 #In my case, I have: Tusa.genomic.fa; Tita.genomic.fa ecc...
 
 NINJA_DIR=/home/jacopomartelossi/.conda/envs/Repeats/bin
