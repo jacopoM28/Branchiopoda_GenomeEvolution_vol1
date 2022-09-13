@@ -2,9 +2,9 @@
 #                 Automatic refinment of TE libraries           #
 #################################################################
 #This script will: 
-  #1. Blast each TE library agains a set of proteomes (NB: is important to remove any protein with TE-related signature from target database)
-  #2. Use ProtExcluder to remove genes and gene fragments
-  #3. Use the cleanup_tandem.pl script to remove tandem repeats (they are not transposable elements)
+  #1. Blast each TE library against previously cleaned proteomes.
+  #2. Use ProtExcluder to remove genes and gene fragments.
+  #3. Use the cleanup_tandem.pl script to remove tandem repeats (they are not transposable elements).
 
 
 ##1.
