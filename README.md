@@ -20,7 +20,7 @@
 
 **NB:** All raw repeats libraries can be found in: Raw_TELibs.zip
 
-### Manual and automatic repeats curation
+### Manual and automatic repeats curation:
 - **03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
 - **04.RawCons_CopyNumber.sh:** RepeatCraft to merge fragmented repeats and extraction of raw consensus with more than 50 genomic copies.  
 - **05.Manual_Curation.sh:** Manual curation of a set of raw consensus. This process was run 5 times.  
