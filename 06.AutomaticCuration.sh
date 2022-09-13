@@ -1,6 +1,7 @@
 ################################################################################
 #                  Automatic curation of raw TE libraries                      #
 ################################################################################
+#This script will use an automatic versione of the BEE pipeline to extend raw consensus.
 
 for i in ../../Genomes/Branchiopods/*genomic.fa; do
 
