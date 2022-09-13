@@ -25,6 +25,7 @@
 - **06.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
 
 #### Data:
+- **Raw_TELibs:** Raw consensus libraries without gene/gene fragments and tandem repeats.  
 
 ##### NB: all custom python scripts can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
  
