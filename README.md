@@ -21,10 +21,11 @@
 **NB:** All raw repeats libraries can be found in: Raw_TELibs.zip
 
 ### Manual and automatic repeats curation:
-- **03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
-- **04.RawCons_CopyNumber.sh:** RepeatCraft to merge fragmented repeats and extraction of raw consensus with more than 50 genomic copies.  
-- **05.Manual_Curation.sh:** Manual curation of a set of raw consensus.    
-- **06.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
+- **03.Clean_Proteomes.sh:** Remove TE-related genes from a set of proteomes
+- **04.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
+- **05.RawCons_CopyNumber.sh:** RepeatCraft to merge fragmented repeats and extraction of raw consensus with more than 50 genomic copies.  
+- **06.Manual_Curation.sh:** Manual curation of a set of raw consensus.    
+- **07.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
 
 ##### NB: all custom python scripts can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
  
