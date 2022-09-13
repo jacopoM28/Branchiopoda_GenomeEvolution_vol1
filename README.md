@@ -15,8 +15,9 @@
 
 ### Scripts:
 
-- **01.RepeatModeler.sh:** De-novo TE discovery.    
-- **03.Clean_Proteomes.sh:** Remove TE-related genes from a set of proteomes
+- **01.RepeatModeler.sh:** De-novo TE discovery.  
+- **02.Rename_TELibs.sh:** Rename raw TE consensus.  
+- **03.Clean_Proteomes.sh:** Remove TE-related genes from a set of proteomes.  
 - **04.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
 - **05.Manual_Curation.sh:** Manual curation of a set of raw consensus.    
 - **06.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
