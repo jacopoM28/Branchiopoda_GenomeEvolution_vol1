@@ -2,7 +2,7 @@
 
 ## Bioinformatic pipeline used to study evolution of Transposable Elements in 9 branchiopods genomes.
 
-### Species :  
+### Species:  
  - Lpac = *Lepidurus packardi*
  - Lapu = *Lepidurus apus apus*
  - Lart = *Lepidurus arcticus*
@@ -12,6 +12,8 @@
  - Tjap = *Triops cancriformis* (JAP)
  - Tlon = *Triops longicaudatus*
  - Tusa = *Triops canctiformis* (ITA) 
+
+### Scripts:
 
 - **01.RepeatModeler.sh:** De-novo TE discovery.    
 - **03.Clean_Proteomes.sh:** Remove TE-related genes from a set of proteomes
