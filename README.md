@@ -13,11 +13,12 @@
  - Tlon = *Triops longicaudatus*
  - Tusa = *Triops canctiformis* (ITA) 
 
-
 #### Raw Repeats annotation:
 
 - **01.RepeatModeler.sh:** De-novo TE discovery.  
 - **02.RepeatMasker.sh:** TE annotation with automatic generated libraries.  
+
+**NB:** All raw repeats libraries can be found in: Raw_TELibs.zip
 
 #### Manual and automatic repeats curation
 - **03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
