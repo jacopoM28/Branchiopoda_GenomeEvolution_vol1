@@ -11,7 +11,7 @@
 
 for i in *Renamed.fa; do 
 
-  blastx -query "$i" -db Cleaned_Prot.pep -evalue 1e-10 -num_descriptions 10 -out "$i"_Blastx.out -num_threads 20; 
+  blastx -query "$i" -db ALL-noTE.pep -evalue 1e-10 -num_descriptions 10 -out "$i"_Blastx.out -num_threads 20; 
   
 done;
 
@@ -28,7 +28,6 @@ done;
 for i in *fanoProtFinal; do 
 
   var1=$( echo "$i" | awk -F"-" '{print$1}'); 
-  perl /media/storage/jacopomartelossi/Software/cleanup_tandem.pl -f "$i" -minlen 80 -misschar n -nr 0.5 > "$var1"-families.noProt
-.noTandem.fa; 
+  perl /media/storage/jacopomartelossi/Software/cleanup_tandem.pl -f "$i" -minlen 80 -misschar n -nr 0.5 > "$var1"-families.noProt.noTandem.fa; 
 
 done;
