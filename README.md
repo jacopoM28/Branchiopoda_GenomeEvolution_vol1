@@ -2,6 +2,15 @@
 
 ## Bioinformati pipeline used to study evolution of Transposable Elements in 8 branchiopods genomes.
 
+### Species :  
+ - Lapu = *Lepidurus apus apus*
+ - Lart = *Lepidurus arcticus*
+ - Lcou = *Lepidurus couesi*
+ - Lubb = *Lepidurus apu lubocki*
+ - Tita = *Triops cancriformis* (SPA)
+ - Tjap = *Triops cancriformis* (JAP)
+ - Tlon = *Triops longicaudatus*
+ - Tusa = *Triops canctiformis* (ITA) 
 #### Raw Repeats annotation:
 
 - **01.RepeatModeler.sh:** De-novo TE discovery.  
