@@ -1,9 +1,9 @@
 ########################################################################################
 #               Blast-Extend-Extract-Align and Build up consensus script               #
 ########################################################################################
-#This script will use the BEE_v2.0 script to blast extend extract align and build up new 
-#consensus for each selected TE family
-#A directory for each specie with inside its genome and raw consensus library is needed
+##BEE_v2.0 script to blast extend extract align and build up new consensus for each selected TE family
+##A directory for each specie with inside its genome and raw consensus library is needed
+##"$i"_ToCurate.txt.fa = Raw cons to selected for manual curation
 
 for i in $( ls ); do 
 
