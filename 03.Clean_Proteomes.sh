@@ -1,8 +1,9 @@
 #####################################################
 #     Clean proteomes from TE-related genes         #
 #####################################################
-###TE.pep.lib = TE-related protein db (RepeatPeps Lib + EDTA)
-###ALL.pep = All branchiopods proteomes
+##Remove TE-related genes from a proteomes set
+##TE.pep.lib = TE-related protein db (RepeatPeps Lib + EDTA)
+##ALL.pep = All branchiopods proteomes
 
 #Create blastdb from TE-related protein
 makeblastdb -in Libs/TE.pep.lib -dbtype prot
