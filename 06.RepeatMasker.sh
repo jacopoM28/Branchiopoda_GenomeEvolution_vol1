@@ -11,14 +11,12 @@ for i in /media/storage/jacopomartelossi/Notostraca_Analyses/Genomes/Branchiopod
   ln -s "$i"; 
 done;
 
-for i in /media/storage/jacopomartelossi/Notostraca_Analyses/Repeats_Curation/Libs/*.fa; do 
-  ln -s "$i"; 
-done;
+ln -s /media/storage/jacopomartelossi/Notostraca_Analyses/Repeats_Curation/Libs/ALL_RawLibs.noProt.noTandem.nr.fa
 
 for i in *.genomic.fa; do 
 
   varSpecie=$( echo "$i" | cut -d"." -f1); 
-   RepeatMasker -small -e NCBI -lib "$varSpecie"-families.noProt.noTandem.fa -pa 20 -gff -a -no_is "$i"; 
+   RepeatMasker -small -e NCBI -lib ALL_RawLibs.noProt.noTandem.nr.fa -pa 20 -gff -a -no_is "$i"; 
 done;
  
 cd ../Curated_Libs
