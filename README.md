@@ -21,6 +21,7 @@
 - **04.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
 - **05.Manual_Curation.sh:** Manual curation of a set of raw consensus.    
 - **06.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
+- **07.RawLibs_RM.sh** TE annotation using RepeatMasker and both raw and curated TE libraries.
 
 #### Data:
 - **Raw_TELibs:** Raw consensus libraries without gene/gene fragments and tandem repeats resulting from scripts 01,02 and 03 
