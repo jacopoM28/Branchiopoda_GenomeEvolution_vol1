@@ -6,6 +6,7 @@
   #1. Blast each TE library against previously cleaned proteomes.
   #2. Use ProtExcluder to remove genes and gene fragments.
   #3. Use the cleanup_tandem.pl script to remove tandem repeats (they are not transposable elements).
+  #4. Merge libraries and remove redundancy
 
 ##0.
 
