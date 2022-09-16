@@ -41,3 +41,7 @@ for i in *fanoProtFinal; do
   perl /media/storage/jacopomartelossi/Software/cleanup_tandem.pl -f "$i" -minlen 80 -misschar n -nr 0.5 > "$var1"-families.noProt.noTandem.fa; 
 
 done;
+
+##4. Merge libraries and remove redundancy
+cat *-families.noProt.noTandem.fa > ALL_RawLibs.noProt.noTandem.fa;
+cd-hit-est -T 0 -i ALL_RawLibs.noProt.noTandem.fa -M 1000000 -o ALL_RawLibs.noProt.noTandem.nr.fa -c 0.8 -n 5 -aS 0.8 -g 1 -G 0
