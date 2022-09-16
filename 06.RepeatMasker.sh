@@ -13,6 +13,7 @@ done;
 
 ln -s /media/storage/jacopomartelossi/Notostraca_Analyses/Repeats_Curation/Libs/ALL_RawLibs.noProt.noTandem.nr.fa
 
+##RepeatMasker with merged raw TE library
 for i in *.genomic.fa; do 
 
   varSpecie=$( echo "$i" | cut -d"." -f1); 
@@ -25,4 +26,5 @@ for i in /media/storage/jacopomartelossi/Notostraca_Analyses/Genomes/Branchiopod
   ln -s "$i"; 
 done;
 
+#RepeatMasker with merged curated TE library
  
