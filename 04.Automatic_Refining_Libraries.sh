@@ -2,9 +2,19 @@
 #                 Automatic refinment of TE libraries           #
 #################################################################
 #Remove genes/gene fragments and tandem repeats from a repeats consensus library
+  #0. Renam consensus sequences adding species ID prefix.
   #1. Blast each TE library against previously cleaned proteomes.
   #2. Use ProtExcluder to remove genes and gene fragments.
   #3. Use the cleanup_tandem.pl script to remove tandem repeats (they are not transposable elements).
+
+##0.
+
+for i in *-families.fa; do
+
+        varName=$( echo "$i" | cut -d"-" -f1);
+        sed 's/>/>'"$varName"'_/' "$i" > "$varName"-families_Renamed.fa;
+
+done;
 
 
 ##1.
