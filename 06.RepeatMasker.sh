@@ -16,8 +16,8 @@ ln -s /media/storage/jacopomartelossi/Notostraca_Analyses/Repeats_Curation/Libs/
 ##RepeatMasker with merged raw TE library
 for i in *.genomic.fa; do 
 
-  varSpecie=$( echo "$i" | cut -d"." -f1); 
    RepeatMasker -small -e NCBI -lib ALL_RawLibs.noProt.noTandem.nr.fa -pa 20 -gff -a -no_is "$i"; 
+   
 done;
  
 cd ../Curated_Libs
