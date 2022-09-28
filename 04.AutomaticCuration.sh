@@ -17,13 +17,13 @@ for i in ../../Genomes/Branchiopods/*genomic.fa; do
                 #If it's the first extension round, use the automatically generated libraries as queries...
                 if [ "$j" = 1 ]; then
                         ln -s  ../../../Libs/"$varSpecie"-families.noProt.noTandem.fa
-                        python ../../../../TE_Scripts/AutomaticBEE.py --genome "$varSpecie".genomic.fa --lib "$varSpecie"-families.noProt.noTandem.fa --out "$varSpecie"_auto_rnd"$j" --blast_identity 70 --blast_query_cov 70 --num_threads 30 --min_Blast_Hits 5
+                        python ../../../../TE_Scripts/AutomaticBEE_v2.0.py --genome "$varSpecie".genomic.fa --lib "$varSpecie"-families.noProt.noTandem.fa --out "$varSpecie"_auto_rnd"$j" --blast_identity 70 --blast_query_cov 70 --num_threads 30 --min_Blast_Hits 5
                 #if not, use the previously extended ones...        
                 else
                         #Previous round variable, necessary to softlink the correct library as new query
                         varRound="$(( j-1 ))"
                         ln -s ../rnd"$varRound"/"$varSpecie"_auto_rnd"$varRound"_Consensus.fa
-                        python ../../../../TE_Scripts/AutomaticBEE.py --genome "$varSpecie".genomic.fa --lib "$varSpecie"_auto_rnd"$varRound"_Consensus.fa --out "$varSpecie"_auto_rnd"$j" --blast_identity 70 --blast_query_cov 70 --num_threads 30 --min_Blast_Hits 5;
+                        python ../../../../TE_Scripts/AutomaticBEE_v2.0.py --genome "$varSpecie".genomic.fa --lib "$varSpecie"_auto_rnd"$varRound"_Consensus.fa --out "$varSpecie"_auto_rnd"$j" --blast_identity 70 --blast_query_cov 70 --num_threads 30 --min_Blast_Hits 5;
                 fi;
                 cd ../;
         done;
