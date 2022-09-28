@@ -9,7 +9,7 @@ for i in ../../Genomes/Branchiopods/*genomic.fa; do
         mkdir "$varSpecie";
         cd "$varSpecie";
         #Counter for the 5 extension rounds
-        for j in {1..5}; do
+        for j in {1..10}; do
 
                 mkdir rnd"$j";
                 cd rnd"$j";
