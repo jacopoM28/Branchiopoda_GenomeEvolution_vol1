@@ -19,7 +19,7 @@
 - **02.Clean_Proteomes.sh:** Remove TE-related genes from a set of proteomes.  
 - **03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
 - **04.Manual_Curation.sh:** Manual curation of a set of raw consensus.    
-- **05.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
+- **05.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 10 times.  
 - **06.RepeatMasker.sh** TE annotation using RepeatMasker and both raw and curated TE libraries.
 - **0X.TE_Repression.Genes.sh** Mining of Piwi, DICER, Ago, RdRP genes from proteomes (No Lpac).
 
