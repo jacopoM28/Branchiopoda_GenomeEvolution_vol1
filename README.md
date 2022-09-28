@@ -21,9 +21,10 @@
 - **04.Manual_Curation.sh:** Manual curation of a set of raw consensus.    
 - **05.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 5 times.  
 - **06.RepeatMasker.sh** TE annotation using RepeatMasker and both raw and curated TE libraries.
+- **0X.TERepression_Genes_Proteomes.sh** Mining of Piwi, DICER, Ago, RdRP genes from proteomes (No Lpac).
 
 #### Data:
 - **Raw_TELibs:** Raw consensus libraries without gene/gene fragments and tandem repeats resulting from scripts 01,02 and 03 
 
-##### NB: all custom python scripts can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
+##### NB: all custom python scripts used for TE curation and annotaion can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
  
