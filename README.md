@@ -1,6 +1,6 @@
 # Branchiopoda_GenomeEvolution_vol1
 
-## Bioinformatic pipeline used to study evolution of Transposable Elements in 9 branchiopods genomes.
+## Bioinformatic pipeline used to study evolution of Transposable Elements and their repression genes in 9 branchiopods genomes.
 
 ### Species:  
  - Lpac = *Lepidurus packardi*
