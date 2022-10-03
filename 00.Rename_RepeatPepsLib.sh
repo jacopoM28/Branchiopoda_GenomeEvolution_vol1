@@ -17,7 +17,7 @@ grep ">" DDE_Prot.fa | awk -F"#" '{print$2}' | grep -w -A1 -Ff - RepeatPeps_Rena
 sed -i 's/--//g' RepeatPeps_DDE.fa
 sed -i '/^$/d' RepeatPeps_DDE.fa 
 
-3.#Merge with DDE library
+#3.Merge with DDE library
 cat DDE_Prot.fa RepeatPeps_DDE.fa > Merged_DDE.fa
 
 #4. Remove redundancy at the 70% of similarity (not necessary to have a lot of similar sequences)
