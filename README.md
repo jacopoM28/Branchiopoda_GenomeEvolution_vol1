@@ -15,6 +15,7 @@
 
 ### Scripts:
 
+- **00.Rename_RepeatPepsLib.sh:** Rename DDE DNA elements at the superfamily level following [Yuan and Wessler, (2011)](https://www.pnas.org/doi/10.1073/pnas.1104208108).  
 - **01.RepeatModeler.sh:** De-novo TE discovery.  
 - **02.Clean_Proteomes.sh:** Remove TE-related genes from a set of proteomes.  
 - **03.Automatic_Refining_Libraries.sh:** Removal of genes/genes fragments and tandem repeats from libraries.  
