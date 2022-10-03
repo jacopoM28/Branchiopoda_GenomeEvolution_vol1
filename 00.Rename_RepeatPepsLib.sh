@@ -20,6 +20,6 @@ sed -i '/^$/d' RepeatPeps_DDE.fa
 #3.Merge with DDE library
 cat DDE_Prot.fa RepeatPeps_DDE.fa > Merged_DDE.fa
 
-#4. Remove redundancy at the 70% of similarity (not necessary to have a lot of similar sequences)
+#4. Remove redundancy at the 70% of similarity (it is not necessary to have a lot of similar sequences)
 cd-hit -i Merged_DDE.fa -o Merged_DDE.nr.fa -c 0.7 -n 5
 
