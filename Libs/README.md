@@ -4,4 +4,4 @@ TE-related protein libraries collected from pubblicy avaible online resources. A
 
 - **DDE_Prot.fa** : [Yuan and Wessler](https://www.pnas.org/doi/abs/10.1073/pnas.1104208108).  
 - **MULE_Prot.fa** : [Dupeyron et al., 2019](https://link.springer.com/article/10.1186/s13100-019-0153-8#Sec12).  
-- **TcMar_Prot.fa** : [Dupeyron et al., 2020](Dupeyron, M., Baril, T., Bass, C., Hayward, A., 2020. Phylogenetic analysis of the Tc1/mariner superfamily reveals the unexplored diversity of pogo-like elements. Mobile DNA 11, 21. https://doi.org/10.1186/s13100-020-00212-0).  
+- **TcMar_Prot.fa** : [Dupeyron et al., 2020](https://mobilednajournal.biomedcentral.com/articles/10.1186/s13100-020-00212-0#Sec17).  
