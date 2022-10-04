@@ -29,5 +29,5 @@
 - **Raw_TELibs:** Raw consensus libraries without gene/gene fragments and tandem repeats resulting from scripts 01,02 and 03 
 - **Libs:** Refernce DDE/D DNA libraries.  
 
-##### NB: all custom python scripts used for TE curation and annotaion can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
+##### NB: all custom python scripts used for TE curation and annotion can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
  
