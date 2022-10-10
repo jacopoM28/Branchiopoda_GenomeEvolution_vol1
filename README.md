@@ -24,7 +24,6 @@
 - **06.DDE.D_ProteinEvidences.sh** Find DDE/D-related protein evidences across all genomes.  
 - **07.Lpac_AUTFams.sh** Cluster founded ORFs with DDE/D evidences and build up famimilies to manually curate.  
 - **09.RepeatMasker.sh** TE annotation using RepeatMasker and both raw and curated TE libraries.
-- **0X.DDE.D_ProteinEvidences.sh** Identify ORF-containing DDE/D transpons.  
 - **0X.TE_Repression.Genes.sh** Mining of Piwi, DICER, Ago, RdRP genes from predicted proteomes (No Lpac).
 
 #### Data:
