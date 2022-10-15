@@ -25,17 +25,16 @@ cd Lpac_Min5_Clusters;
 #Rename the clusters
 for j in $( ls ); do 
 
-mv "$j" Lpac_"$j".fasta; 
+  mv "$j" Lpac_"$j".fasta; 
 
 done;
 
 for i in *fasta; do 
 
-#Align all clusters
-einsi --thread 20 "$i" > "${i//.fasta/.einsi}"; 
-#Build up consensus sequences
-CIAlign --remove_insertions --make_consensus --consensus_name "${i//.fasta/_cons}" --outfile_stem "${i//.fasta/}" --infile "${i/
-/.fasta/.einsi}"
+  #Align all clusters
+  einsi --thread 20 "$i" > "${i//.fasta/.einsi}"; 
+  #Build up consensus sequences
+  CIAlign --remove_insertions --make_consensus --consensus_name "${i//.fasta/_cons}" --outfile_stem "${i//.fasta/}" --infile "${i//.fasta/.einsi}"
 done;
 
 ######These consensus were used in a Blast-Extend-Extract script to manually curate them
