@@ -37,3 +37,10 @@ cp PepLibL/pac_DDE.D_cons.fa Final_Lib
 
 python ../../TE_Scripts/Merge_TELibraries.py --path  Final_Lib/ --out FinalLib --manual ALL_ManuallyCurated.fa
 cd-hit-est -T 0 -i FinalLib_Merged.Consensus.fa -M 1000000 -o FinalLib_Merged.Consensus.nr.fa -c 0.8 -n 5 -aS 0.8 -g 1 -G 0
+
+###Classified still Unknown consensus based on BlastX searches of the longest 20 insertions against a TE-derived pep library
+awk '/^>/ { if(NR>1) print "";  printf("%s\n",$0); next; } { printf("%s",$0);}  END {printf("\n");}' FinalLib_Merged.Consensus.nr.fa > FullLib_Merged.Consensus.nr.fa.oneliner
+grep -A1 "Unknown" FinalLib_Merged.Consensus.nr.fa > FullLib_Merged.Consensus.Unknown.oneliner
+python ../../TE_Scripts/BlastX_TE_Anno.py --lib FullLib_Merged.Consensus.Unknown.oneliner --genome ALL.genomic.fa --num_threads 10 --out Unknown_Classified --TE_prot ../../Libs/RepeatPeps_Renamed.lib
+
+#NB: The resulting Consensus_Classification.tsv file was used to classify all previously unknown sequences
