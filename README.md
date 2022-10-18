@@ -23,6 +23,7 @@
 - **05.Automatic_Curation.sh:** Automatic curation of all consensus.  This process was run 10 times.
 - **06.DDE.D_ProteinEvidences.sh** Find DDE/D-related protein evidences across all genomes.  
 - **07.Lpac_AUTFams.sh** Clustering of DDE/D insertions with protein homologies. 
+- **08.PrepareLibs.sh** Prepare all TE libs for RepeatMasker anayses.   
 - **09.RepeatMasker.sh** TE annotation using RepeatMasker and both raw and curated TE libraries.
 - **0X.TE_Repression.Genes.sh** Mining of Piwi, DICER, Ago, RdRP genes from predicted proteomes (No Lpac).
 
