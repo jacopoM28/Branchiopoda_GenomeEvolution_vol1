@@ -43,4 +43,7 @@ awk '/^>/ { if(NR>1) print "";  printf("%s\n",$0); next; } { printf("%s",$0);}  
 grep -A1 "Unknown" FinalLib_Merged.Consensus.nr.fa > FullLib_Merged.Consensus.Unknown.oneliner
 python ../../TE_Scripts/BlastX_TE_Anno.py --lib FullLib_Merged.Consensus.Unknown.oneliner --genome ALL.genomic.fa --num_threads 10 --out Unknown_Classified --TE_prot ../../Libs/RepeatPeps_Renamed.lib
 
-#NB: The resulting Consensus_Classification.tsv file was used to classify all previously unknown sequences
+#-----------------------------------------------------------------------------------------------------------###
+###NB: The resulting Consensus_Classification.tsv file was used to classify all previously unknown sequences###
+###"FullLib_Merged.Consensus.nr.BlastxClassified.fa" ---> Final Classified library                          ###
+#-----------------------------------------------------------------------------------------------------------###
