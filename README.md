@@ -28,7 +28,7 @@
 - **0X.TE_Repression.Genes.sh** Mining of Piwi, DICER, Ago, RdRP genes from predicted proteomes (No Lpac).
 
 #### Data:
-- **Libs:** Refernce DDE/D DNA libraries.  
+- **Libs:** Refernce DDE/D DNA HMM profiles.  
 
 ##### NB: all custom python scripts used for TE curation and annotion can be found in: [TE_Scripts](https://github.com/jacopoM28/Python_Scripts/tree/main/TE_scripts)
  
